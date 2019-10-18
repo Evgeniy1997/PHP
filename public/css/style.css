@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a, button {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar {
+    background: #0070d0;
+    display: flex;
+    padding: 10px 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 16px;
+}
+
+.py-4 {
+    padding: 30px;
+}
+
+.card-header {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.dropdown-item {
+    color: #ff7b7b;
+}
+
+tr {
+    display: block;
+    border-bottom: 1px solid;
+}
+
+.table-title, .table-content {
+    padding: 10px;
+    width: 100px;
+    text-align: left;
+}
+
+.table-title:nth-child(1), .table-content:nth-child(1) {
+    width: 20px;
+}
+
+.table-content:last-child {
+    text-align: center;
+}
+
+.profile {
+    display: block;
+    margin-top: 15px;
+}
+
+.error {
+    margin-top: 10px;
+}
+
+.profile-title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.table-email {
+    width: 200px;
+}

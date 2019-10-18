@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 0,
+            "database": "laravel",
+            "dialect": "MySQL",
+            "isActive": false,
+            "isConnected": false,
+            "name": "laravel",
+            "password": "secret",
+            "port": 3306,
+            "server": "192.168.10.10",
+            "username": "root"
+        }
+    ]
+}
